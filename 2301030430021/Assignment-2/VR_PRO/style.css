@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.navbar,.sign{
+    text-decoration: none;
+    /* color: black; */
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/* #sign{
+    text-align: right;
+    padding-top: 5px;
+} */
+
+a{
+    text-decoration: none;
+    margin-left: 50px;
+    /* margin-top: 30px; */
+    color: black;
+}
+.back-img{   
+    content: "";
+    background: url("VR-based-Language-Learning-App.jpg") top left/cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+    /* border: solid blue 4px; */
+    position:fixed;
+    background-attachment:fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
+.head{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* margin-bottom: 1px; */
+    opacity: 0.7;
+    border: 0px;
+    margin-bottom: 0;
+}
+
+.para{
+   margin-top: 10px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.backs-img{   
+    content: "";
+    background: url("images/th.jfif") top left/cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+    /* border: solid blue 4px; */
+    position:fixed;
+    background-attachment:fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.heading,.info h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.heading p{
+    margin-top: 10px;
+}
+
+.info p{
+    text-align: center;
+    margin:50px
+}
+
+.lang ul li,.offer ul li{
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.offer h2,h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.course{
+    text-align: center;
+    border: 2px solid black;
+    height: 210px;
+    width: 200px;
+    margin-left: 42%;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course p,.vr h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+    margin-right:40px ;
+    margin-top: 10px;
+}
+
+.vr h3{
+    margin-top: 20px;
+}
+
+.vr ol li {
+    /* display: block; */
+    list-style-type: disc;
+}
+
+.form{
+    border: 2px solid rgb(155, 148, 156);
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 20px; */
+    background-color: rgb(220, 194, 244);
+    /* padding-bottom: 40px; */
+
+}
+
+input,textarea{
+    height: 30px;
+    width: 291px;
+    border: none;
+    padding: 0px;
+    background-color: rgb(241, 225, 247);
+    /* color: aquamarine; */
+}
+
+label{
+    text-align: center;
+    padding: 50px ;
+}
+
+.login,.signup{
+    border: 2px solid rgb(222, 209, 209);
+    border-radius: 7px;
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+
+}
+
+#submit{
+    background-color: rgb(196, 144, 245);
+    color: rgb(53, 4, 90);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form h2{
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* login form */
+
+.login-form{
+    border: 2px solid rgb(155, 148, 156);
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    /* padding: 30px; */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 20px; */
+    background-color: rgb(220, 194, 244);
+}
+
+.login-form input{
+    margin:  10px;
+    /* height: 30px;
+    width: 200px; */
+}
+
+.login-form h3{
+    margin-top: 30px;
+}
+
+.inputbox{
+    margin: 20px;
+}
+
+.login-btn button{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.login-acc p{
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* signup */
+
+.signup-form{
+    border: 2px solid rgb(155, 148, 156);
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    /* padding: 30px; */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 20px; */
+    background-color: rgb(220, 194, 244);
+}
+
+.signup-form input{
+    margin: 20px;
+}
+ .h3 h1{
+    margin: 10px;
+    font-size: 25px;
+}
+.cancelbtn,.signupbtn{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+/* img in aboutus */
+
+.img{
+    display: flex;
+    /* margin: 100px; */
+  
+}
+.img-1{
+   width: 30%;
+   margin: 30px;
+   
+}
+
+.img-2{
+   
+   width: 30%;
+   margin: 30px;
+    
+}
